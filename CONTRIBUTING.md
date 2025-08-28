@@ -51,7 +51,7 @@
 
 Si tu interés va **más allá de la configuración técnica** y quieres contribuir al ecosistema completo (comunidad, aplicación React, modelo de negocio), revisa:
 
-📁 **[N8Nation Ecosystem](github.com/MrKaizen7/n8nation_)** - Documentación completa del proyecto
+📁 **[N8Nation Ecosystem](github.com/MrKaizen7/n8nation)** - Documentación completa del proyecto
 🎯 **[PROPOSAL.md](./PROPOSAL.md)** - Invitación a colaborar en el ecosistema
 
 ## 🤝 **Código de Conducta**
