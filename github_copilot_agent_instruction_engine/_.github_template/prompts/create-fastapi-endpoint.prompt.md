@@ -1,13 +1,13 @@
 ---
-description: Crear un endpoint de FastAPI para la integración de flujos de trabajo en n8n.
+description: Create a FastAPI endpoint for n8n workflow integration.
 mode: agent
 
 ---
 
-Genera un endpoint de FastAPI que:
-- Se integre con la automatización de flujos de trabajo de n8n
-- Soporte entrada/salida multilingüe
-- Incluya manejo de errores y registro
-- Siga las convenciones del proyecto para el diseño de APIs
+Generate a FastAPI endpoint that:
+- Integrates with n8n workflow automation
+- Supports multilingual input/output
+- Includes error handling and logging
+- Follows project conventions for API design
 
 reference: instructions/python.instructions.md, instructions/integration.instructions.md

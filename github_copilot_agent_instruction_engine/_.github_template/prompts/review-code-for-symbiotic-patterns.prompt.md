@@ -1,13 +1,13 @@
 ---
-description: Revisar el código para patrones de desarrollo simbiótico y mejores prácticas.
+description: Review code for symbiotic development patterns and best practices.
 mode: agent
 
 ---
 
-Revisa el código para:
-- Lógica modular y reutilizable en los flujos de trabajo
-- Colaboración entre colaboradores humanos y AI
-- Documentación de decisiones arquitectónicas
-- Cumplimiento de los estándares de desarrollo simbiótico
+Review the code for:
+- Modular, reusable workflow logic
+- Collaboration between human and AI contributors
+- Documentation of architectural decisions
+- Adherence to symbiotic development standards
 
 reference: instructions/symbiotic_development.instructions.md

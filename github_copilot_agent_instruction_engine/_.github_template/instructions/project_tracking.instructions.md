@@ -1,32 +1,32 @@
 ---
 applyTo: 'CHANGELOG.md, TODO.md'
 ---
-# Seguimiento de Proyectos
+# Project Tracking
 
-## Propósito
-Define estándares para rastrear el progreso, los cambios y las tareas del proyecto.
+## Purpose
+Defines standards for tracking project progress, changes, and tasks.
 
-## Audiencia
-- Contribuyentes y agentes AI responsables de mantener la documentación del proyecto
-- Gerentes de proyecto y mantenedores
+## Audience
+- Contributors and AI agents responsible for maintaining project documentation
+- Project managers and maintainers
 
-## Prácticas Requeridas
-1. **Actualizaciones del Changelog**
-   - Actualiza `CHANGELOG.md` para todos los cambios importantes, características, correcciones y refactorizaciones.
-   - Usa entradas claras y accionables con fechas y referencias a archivos relacionados.
-2. **Seguimiento de Tareas**
-   - Mantén `TODO.md` para las tareas en curso y completadas.
-   - Vincula las tareas a los archivos de instrucciones o prompts relevantes para contexto.
-3. **Automatización**
-   - Anima a los agentes AI a proponer actualizaciones cuando se detecten discrepancias.
-   - Automatiza las actualizaciones del changelog y el roadmap cuando sea posible.
-4. **Enlaces de Documentación**
-   - Referencia archivos clave y documentación para trazabilidad.
+## Required Practices
+1. **Changelog Updates**
+   - Update `CHANGELOG.md` for all major changes, features, fixes, and refactors.
+   - Use clear, actionable entries with dates and references to related files.
+2. **Task Tracking**
+   - Maintain `TODO.md` for ongoing and completed tasks.
+   - Link tasks to relevant instruction or prompt files for context.
+3. **Automation**
+   - Encourage AI agents to propose updates when discrepancies are detected.
+   - Automate changelog and roadmap updates where possible.
+4. **Documentation Links**
+   - Reference key files and documentation for traceability.
 
-## Directrices de Contenido
-- Usa tablas o listas en Markdown para mayor claridad.
-- Mantén un tono profesional, transparente y colaborativo.
+## Content Guidelines
+- Use Markdown tables or lists for clarity.
+- Maintain a professional, transparent, and collaborative tone.
 
-## Referencias
+## References
 - [CHANGELOG.md](../../CHANGELOG.md)
 - [TODO.md](../../TODO.md)

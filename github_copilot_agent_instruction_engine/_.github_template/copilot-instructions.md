@@ -1,18 +1,18 @@
-# BAM! Github Copilot Mejorado — Instrucciones para Agentes AI
+# BAM! Enhanced Github Copilot — AI Agent Instructions
 
-## Descripción del Proyecto
-- Este repositorio...
+## Project Overview
+- This repo...
 
-## Arquitectura y Componentes Clave
+## Architecture & Key Components
 
-## Flujos de Trabajo para Desarrolladores
+## Developer Workflows
 
-## Patrones y Convenciones Específicos del Proyecto
+## Project-Specific Patterns & Conventions
 
-## Dependencias Externas
+## External Dependencies
 
-## Archivos y Documentos Clave
+## Key Files & Docs
 
 
 ---
-**Para convenciones poco claras o faltantes, consulta los archivos anteriores o solicita aclaraciones.**
+**For unclear or missing conventions, check the above files or ask for clarification.**

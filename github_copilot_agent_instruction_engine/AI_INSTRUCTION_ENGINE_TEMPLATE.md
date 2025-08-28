@@ -1,88 +1,88 @@
-# Plantilla del Motor de Instrucciones AI para Repositorios
+# AI Instruction Engine Template for Repositories
 
-Esta plantilla proporciona una estructura clara y adaptable para implementar un sistema de instrucciones y prompts AI en cualquier base de código. Permite a los equipos guiar a los agentes de codificación AI (como GitHub Copilot) con contexto, estándares y flujos de trabajo específicos del proyecto, independientemente de la pila tecnológica o arquitectura subyacente.
-
----
-
-## 1. Propósito
-
-El motor de instrucciones `.github` es un conjunto de archivos y convenciones que:
-- Proporcionan orientación de alto nivel y detallada a los agentes AI que trabajan en el repositorio.
-- Estandarizan los prompts para la generación de código, revisión y creación de estructuras.
-- Aseguran que las instrucciones y prompts estén siempre actualizados con la base de código.
-- Permiten que tanto los colaboradores humanos como los AI mantengan la consistencia del proyecto.
+This template provides a clear, adaptable structure for implementing an AI instruction and prompt system in any codebase. It enables teams to guide AI coding agents (like GitHub Copilot) with project-specific context, standards, and workflows, regardless of the underlying tech stack or architecture.
 
 ---
 
-## 2. Estructura de Carpetas Recomendada
+## 1. Purpose
+
+The `.github` instruction engine is a set of files and conventions that:
+- Provide high-level and detailed guidance to AI agents working in the repository
+- Standardize prompts for code generation, review, and scaffolding
+- Ensure instructions and prompts are always up-to-date with the codebase
+- Enable both human and AI contributors to maintain project consistency
+
+---
+
+## 2. Recommended Folder Structure
 
 ```
 .github/
-├── copilot-instructions.md         # Guía principal para agentes AI (visión general del proyecto, patrones clave, flujos de trabajo)
-├── instructions/                   # Archivos de instrucciones detallados y modulares
-│   ├── <language>.instructions.md  # Estándares específicos de lenguaje (por ejemplo, python.instructions.md)
-│   ├── <framework>.instructions.md # Guías específicas de frameworks (por ejemplo, react.instructions.md)
-│   ├── <feature>.instructions.md   # Guías específicas de características/arquitectura
+├── copilot-instructions.md         # Main guide for AI agents (project overview, key patterns, workflows)
+├── instructions/                   # Detailed, modular instruction files
+│   ├── <language>.instructions.md  # Language-specific standards (e.g., python.instructions.md)
+│   ├── <framework>.instructions.md # Framework-specific guides (e.g., react.instructions.md)
+│   ├── <feature>.instructions.md   # Feature/architecture-specific guides
 │   └── ...
-└── prompts/                        # Archivos de prompts reutilizables y específicos para tareas
-    ├── <task-name>.prompt.md       # Prompts para generación de código, revisión, creación de estructuras, etc.
+└── prompts/                        # Reusable, task-specific prompt files
+    ├── <task-name>.prompt.md       # Prompts for code generation, review, scaffolding, etc.
     └── ...
 ```
 
 ---
 
-## 3. Tipos de Archivos y Guías de Contenido
+## 3. File Types & Content Guidelines
 
 ### 3.1. `copilot-instructions.md`
-- Resumen y objetivos del proyecto
-- Patrones arquitectónicos clave y flujos de trabajo
-- Convenciones críticas (nomenclatura, manejo de errores, pruebas, etc.)
-- Cómo los agentes AI deben interactuar con los archivos y el contexto del proyecto
-- Enlaces a archivos de instrucciones detallados
+- Project summary and goals
+- Key architectural patterns and workflows
+- Critical conventions (naming, error handling, testing, etc.)
+- How AI agents should interact with project files and context
+- Links to detailed instruction files
 
-### 3.2. Archivos de Instrucciones (`.instructions.md`)
-- Estándares específicos de lenguaje, framework o características
-- Estilo de código, mejores prácticas y anti-patrones
-- Manejo de errores, pruebas, consejos de rendimiento
-- Puntos de integración y advertencias
-- Deben ser modulares y fáciles de actualizar
+### 3.2. Instruction Files (`.instructions.md`)
+- Language, framework, or feature-specific standards
+- Code style, best practices, and anti-patterns
+- Error handling, testing, performance tips
+- Integration points and gotchas
+- Should be modular and easy to update
 
-### 3.3. Archivos de Prompts (`.prompt.md`)
-- Instrucciones específicas para tareas dirigidas a agentes AI
-- Generación de código, revisión, creación de estructuras, documentación, etc.
-- Referenciar archivos de instrucciones relevantes para estándares
-- Usar variables (por ejemplo, `${selection}`, `${file}`) para respuestas contextuales
-- Deben ser reutilizables y fáciles de adaptar
-
----
-
-## 4. Mantenimiento y Mejores Prácticas
-
-- Actualizar los archivos de instrucciones y prompts siempre que los cambios en la base de código afecten a los estándares, flujos de trabajo o arquitectura
-- Animar a los agentes AI a proponer actualizaciones si se detectan discrepancias
-- Usar registros de cambios y hojas de ruta para rastrear cambios importantes y tareas completadas
-- Mantener las instrucciones modulares para una fácil adaptación a nuevas características o tecnologías
-- Documentar el motor de instrucciones en el README del proyecto para la incorporación de nuevos colaboradores
+### 3.3. Prompt Files (`.prompt.md`)
+- Task-specific instructions for AI agents
+- Code generation, review, scaffolding, documentation, etc.
+- Reference relevant instruction files for standards
+- Use variables (e.g., `${selection}`, `${file}`) for context-aware responses
+- Should be reusable and easy to adapt
 
 ---
 
-## 5. Ejemplo de Uso
+## 4. Maintenance & Best Practices
 
-- El agente AI lee `copilot-instructions.md` para el contexto del proyecto
-- Para un backend en Python, el agente consulta `instructions/python.instructions.md` para el estilo de código
-- Al generar un componente de React, el agente utiliza `prompts/generate-component.prompt.md` haciendo referencia a `instructions/react.instructions.md`
-- Después de cambios importantes, el agente actualiza `CHANGELOG.md` y propone ediciones a sus propias instrucciones
-
----
-
-## 6. Lista de Verificación de Adaptación
-
-- [ ] Crear `.github/copilot-instructions.md` con visión general del proyecto y patrones clave
-- [ ] Agregar archivos de instrucciones modulares para cada lenguaje, framework y característica
-- [ ] Agregar archivos de prompts para tareas comunes asistidas por AI
-- [ ] Documentar el motor de instrucciones para colaboradores
-- [ ] Mantener todos los archivos sincronizados con los cambios en la base de código
+- Update instruction and prompt files whenever codebase changes affect standards, workflows, or architecture
+- Encourage AI agents to propose updates if discrepancies are detected
+- Use changelogs and roadmaps to track major changes and completed tasks
+- Keep instructions modular for easy adaptation to new features or tech
+- Document the instruction engine in the project README for onboarding
 
 ---
 
-Esta plantilla puede ser copiada, personalizada y ampliada para cualquier repositorio para habilitar un motor de instrucciones AI robusto y mantenible que potencie tanto a los colaboradores humanos como a los AI.
+## 5. Example Usage
+
+- AI agent reads `copilot-instructions.md` for project context
+- For a Python backend, agent consults `instructions/python.instructions.md` for code style
+- When generating a React component, agent uses `prompts/generate-component.prompt.md` referencing `instructions/react.instructions.md`
+- After major changes, agent updates `CHANGELOG.md` and proposes edits to its own instructions
+
+---
+
+## 6. Adaptation Checklist
+
+- [ ] Create `.github/copilot-instructions.md` with project overview and key patterns
+- [ ] Add modular instruction files for each language, framework, and feature
+- [ ] Add prompt files for common AI-assisted tasks
+- [ ] Document the instruction engine for contributors
+- [ ] Keep all files synchronized with codebase changes
+
+---
+
+This template can be copied, customized, and extended for any repository to enable a robust, maintainable AI instruction engine that empowers both human and AI contributors.

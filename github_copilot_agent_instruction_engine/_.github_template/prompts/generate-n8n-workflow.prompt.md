@@ -1,14 +1,14 @@
 ---
-description: Generar un nuevo flujo de trabajo en n8n con soporte multilingüe y nodos conscientes del contexto.
+description: Generate a new n8n workflow with multilingual support and context-aware nodes.
 mode: agent
 
 ---
 
-Genera un flujo de trabajo en n8n que:
-- Use nodos conscientes del contexto (por ejemplo, HTTP Request, IF, Set, Merge, Email/Slack)
-- Soporte tanto a usuarios en español como en inglés
-- Incluya docstrings y comentarios para cada paso
-- Siga las convenciones del proyecto para la configuración de nodos y manejo de errores
-- Etiquete el tipo de flujo de trabajo e idioma en los metadatos
+Generate an n8n workflow that:
+- Uses context-aware nodes (e.g., HTTP Request, IF, Set, Merge, Email/Slack)
+- Supports both Spanish and English users
+- Includes docstrings and comments for each step
+- Follows project conventions for node configuration and error handling
+- Tags workflow type and language in metadata
 
 reference: instructions/python.instructions.md, instructions/integration.instructions.md

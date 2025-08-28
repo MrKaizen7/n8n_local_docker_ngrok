@@ -1,39 +1,39 @@
 ---
 applyTo: '*.py'
 ---
-# Patrones de Integración
+# Integration Patterns
 
-## Propósito
-Define estándares y mejores prácticas de integración para n8n AI Copilot, asegurando una automatización robusta, multilingüe y contextual.
+## Purpose
+Defines integration standards and best practices for the project, ensuring robust, multilingual, and context-aware automation.
 
-## Audiencia
-- Desarrolladores y agentes AI que implementan integraciones en n8n AI Copilot
-- Contribuyentes que trabajan en la automatización de flujos de trabajo y conexiones con APIs externas
+## Audience
+- Developers and AI agents implementing integrations in the project
+- Contributors working on workflow automation and external API connections
 
-## Prácticas Requeridas
-1. **Diseño y Uso de APIs**
-   - Usa principios RESTful para todas las integraciones de API.
-   - Asegúrate de que los endpoints estén documentados y sigan las convenciones del proyecto.
-2. **Procesamiento de Documentos**
-   - Detecta automáticamente el idioma y enriquece los metadatos de todos los documentos procesados.
-   - Etiqueta los documentos por tipo e idioma para la búsqueda semántica.
-3. **Integración de Búsqueda Vectorial**
-   - Propón soluciones de almacenamiento vectorial para una recuperación eficiente de documentos.
-   - Referencia el modelo, la base de datos y las configuraciones de rendimiento.
-4. **Soporte Multilingüe**
-   - Todas las integraciones deben soportar español/inglés (detección automática, traducción inteligente).
-5. **Manejo de Errores y Registro**
-   - Maneja los errores de APIs externas de manera adecuada y registra todas las actualizaciones.
-   - Proporciona mensajes de error accionables para la resolución de problemas.
-6. **Seguridad**
-   - Nunca expongas claves de API o datos sensibles en el código o registros.
+## Required Practices
+1. **API Design & Usage**
+   - Use RESTful principles for all API integrations.
+   - Ensure endpoints are documented and follow project conventions.
+2. **Document Processing**
+   - Auto-detect language and enrich metadata for all processed documents.
+   - Tag documents by type and language for semantic search.
+3. **Vector Search Integration**
+   - Propose vector storage solutions for efficient document retrieval.
+   - Reference for model, DB, and performance settings.
+4. **Multilingual Support**
+   - All integrations must support Spanish/English (auto-detect, smart translation).
+5. **Error Handling & Logging**
+   - Handle external API errors gracefully and log all updates.
+   - Provide actionable error messages for troubleshooting.
+6. **Security**
+   - Never expose API keys or sensitive data in code or logs.
 
-## Directrices de Contenido
-- Incluye ejemplos de código y uso de endpoints donde sea relevante.
-- Usa enlaces Markdown para referenciar otros archivos de instrucciones y documentación.
-- Mantén un tono profesional, claro y colaborativo.
+## Content Guidelines
+- Include code examples and endpoint usage where relevant.
+- Use Markdown links to reference other instruction files and documentation.
+- Maintain a professional, clear, and collaborative tone.
 
-## Referencias
-- [README.md](../../README.md)
+## References
+- [README.md](../../README.md) //your general documentation
 - [archivo.tipo](ruta/archivo.tipo)
 - [TECHNICAL_SPECS.md](../../TECHNICAL_SPECS.md)

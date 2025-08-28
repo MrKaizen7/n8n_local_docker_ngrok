@@ -1,14 +1,14 @@
 ---
-description: Revisar una respuesta de AI Copilot para precisión, contexto y cumplimiento de estándares del proyecto.
+description: Review an AI Copilot response for accuracy, context, and adherence to project standards.
 mode: agent
 
 ---
 
-Revisa la respuesta de AI Copilot:
-- Verifica el uso correcto del soporte multilingüe
-- Asegúrate de que el contexto y la memoria se utilicen adecuadamente
-- Valida el estilo de código, manejo de errores y documentación
-- Confirma los puntos de integración y etiquetado de metadatos
-- Sugiere mejoras si no se cumplen los estándares
+Review the AI Copilot response:
+- Check for correct use of multilingual support
+- Ensure context and memory are used appropriately
+- Validate code style, error handling, and documentation
+- Confirm integration points and metadata tagging
+- Suggest improvements if standards are not met
 
 reference: instructions/python.instructions.md, instructions/integration.instructions.md

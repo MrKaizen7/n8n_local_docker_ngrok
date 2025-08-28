@@ -1,19 +1,19 @@
 ---
 applyTo: '*.py'
 ---
-# Estándares de Python
+# Python Standards
 
-## Propósito
-Define estándares robustos y prácticos para el código Python. Asegura consistencia, mantenibilidad e integración fluida con flujos de trabajo multilingües y contextuales.
+## Purpose
+Defines robust, actionable standards for Python code. Ensures consistency, maintainability, and seamless integration with multilingual, context-aware workflows.
 
-## Audiencia
-- Desarrolladores de Python y agentes AI que contribuyen a n8n AI Copilot
-- Nuevos colaboradores que se incorporan al proyecto
+## Audience
+- Python developers and AI agents contributing to n8n AI Copilot
+- New contributors onboarding to the project
 
-## Prácticas Requeridas
-1. **Anotaciones de Tipos y Dataclasses**
-   - Usa anotaciones de tipos para todas las firmas de funciones y dataclasses para datos estructurados.
-   - Ejemplo:
+## Required Practices
+1. **Type Hints & Dataclasses**
+   - Use type hints for all function signatures and dataclasses for structured data.
+   - Example:
      ```python
      from dataclasses import dataclass
      @dataclass
@@ -22,30 +22,30 @@ Define estándares robustos y prácticos para el código Python. Asegura consist
          timestamp: datetime
          language: str
      ```
-2. **Importaciones**
-   - Prefiere importaciones explícitas; evita las importaciones con comodines para mayor claridad y mantenibilidad.
-3. **Formato y Nomenclatura**
-   - Sigue PEP8 para el estilo de código, nomenclatura y formato.
-   - Usa snake_case para variables/funciones, PascalCase para clases.
-4. **Documentación**
-   - Usa docstrings para todas las funciones y clases. Incluye propósito, parámetros y tipos de retorno.
-5. **Patrones de Integración**
-   - Propón integraciones con bases de datos vectoriales, LLMs y flujos de trabajo.
-   - Referencia `integration.instructions.md` para el uso de APIs y bases de datos.
-6. **Soporte Multilingüe**
-   - Detecta automáticamente el idioma y usa traducción inteligente para todo el contenido dirigido al usuario.
-   - Etiqueta documentos por tipo (webhook, integración, flujo de trabajo, general) e idioma.
-7. **Seguridad**
-   - Nunca comprometas claves de API; usa `.env` y variables de entorno.
-8. **Pruebas y Manejo de Errores**
-   - Escribe pruebas para todas las nuevas características. Maneja errores de manera adecuada y registra los problemas.
+2. **Imports**
+   - Prefer explicit imports; avoid wildcard imports for clarity and maintainability.
+3. **Formatting & Naming**
+   - Follow PEP8 for code style, naming, and formatting.
+   - Use snake_case for variables/functions, PascalCase for classes.
+4. **Documentation**
+   - Use docstrings for all functions and classes. Include purpose, parameters, and return types.
+5. **Integration Patterns**
+   - Propose integrations with vector databases, LLMs, and workflows.
+   - Reference `integration.instructions.md` for API and DB usage.
+6. **Multilingual Support**
+   - Auto-detect language and use smart translation for all user-facing content.
+   - Tag documents by type (webhook, integration, workflow, general) and language.
+7. **Security**
+   - Never commit API keys; use `.env` and environment variables.
+8. **Testing & Error Handling**
+   - Write tests for all new features. Handle errors gracefully and log issues.
 
-## Directrices de Contenido
-- Incluye ejemplos de código y fragmentos de comandos donde sea relevante.
-- Usa enlaces Markdown para referenciar otros archivos de instrucciones y documentación.
-- Mantén un tono profesional, claro y acogedor.
+## Content Guidelines
+- Include code examples and command snippets where relevant.
+- Use Markdown links to reference other instruction files and documentation.
+- Maintain a professional, clear, and welcoming tone.
 
-## Referencias
+## References
 - [README.md](../../README.md)
 - [integration.instructions.md](./integration.instructions.md)
 - [CONTRIBUTING.md](../CONTRIBUTING.md)

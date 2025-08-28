@@ -1,33 +1,33 @@
 ---
 applyTo: '*'
 ---
-# Prioridades para Hackathons
+# Hackathon Priorities
 
-## Propósito
-Define prioridades y mejores prácticas para eventos de hackathon, enfocándose en la creación rápida de prototipos y la automatización de flujos de trabajo.
+## Purpose
+Defines priorities and best practices for hackathon events, focusing on rapid prototyping and workflow automation.
 
-## Audiencia
-- Participantes de hackathons y agentes AI
-- Contribuyentes que construyen demos y prototipos
+## Audience
+- Hackathon participants and AI agents
+- Contributors building demos and prototypes
 
-## Prácticas Requeridas
-1. **Prototipado Rápido**
-   - Enfócate en construir e iterar flujos de trabajo rápidamente.
-   - Usa scripts de demostración (`demo_copilot.py`) para mostrar características.
-2. **Respuestas Multilingües y Contextuales**
-   - Da prioridad al soporte para español/inglés y la automatización contextual.
-3. **Documentación y Reutilización**
-   - Documenta todos los nuevos flujos de trabajo e integraciones para su reutilización futura.
-   - Referencia y actualiza los archivos de instrucciones relevantes.
-4. **Seguimiento del Progreso**
-   - Rastrea el progreso del hackathon en `project_tracking.instructions.md`.
-   - Usa entradas claras y accionables para las tareas completadas.
+## Required Practices
+1. **Rapid Prototyping**
+   - Focus on building and iterating workflows quickly.
+   - Use demo scripts (`demo_copilot.py`) for feature showcases.
+2. **Multilingual & Context-Aware Responses**
+   - Prioritize support for Spanish/English and context-aware automation.
+3. **Documentation & Reuse**
+   - Document all new workflows and integrations for future reuse.
+   - Reference and update relevant instruction files.
+4. **Progress Tracking**
+   - Track hackathon progress in `project_tracking.instructions.md`.
+   - Use clear, actionable entries for completed tasks.
 
-## Directrices de Contenido
-- Incluye ejemplos de flujos de trabajo y scripts de demostración donde sea relevante.
-- Usa enlaces Markdown para referenciar otros archivos de instrucciones y documentación.
-- Mantén un tono enérgico, colaborativo e innovador.
+## Content Guidelines
+- Include workflow examples and demo scripts where relevant.
+- Use Markdown links to reference other instruction files and documentation.
+- Maintain an energetic, collaborative, and innovative tone.
 
-## Referencias
+## References
 - [archivo.tipo](ruta/archivo.tipo)
 - [project_tracking.instructions.md](./project_tracking.instructions.md)

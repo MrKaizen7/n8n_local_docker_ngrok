@@ -1,13 +1,13 @@
 ---
-description: Generar un componente inteligente y consciente del contexto para n8n AI Copilot.
+description: Generate an intelligent, context-aware component for n8n AI Copilot.
 mode: agent
 
 ---
 
-Genera un componente que:
-- Se adapte al contexto del usuario y a los requisitos del flujo de trabajo
-- Soporte configuración multilingüe
-- Documente toda la lógica y puntos de integración
-- Siga los patrones de desarrollo simbiótico
+Generate a component that:
+- Adapts to user context and workflow requirements
+- Supports multilingual configuration
+- Documents all logic and integration points
+- Follows symbiotic development patterns
 
 reference: instructions/typescript.instructions.md, instructions/symbiotic_development.instructions.md
