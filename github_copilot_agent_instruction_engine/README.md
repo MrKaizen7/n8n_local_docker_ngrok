@@ -1,4 +1,4 @@
-# Motor de Instrucciones AI para .github
+# BAM! Github Copilot Mejorado — Instrucciones para Agentes IA
 
 Esta carpeta impulsa el motor de desarrollo basado en AI para el repositorio. Proporciona instrucciones modulares y prompts reutilizables tanto para colaboradores humanos como para AI, asegurando estándares, flujos de trabajo y procesos de incorporación consistentes.
 
@@ -33,11 +33,11 @@ El desarrollo del ecosistema n8nation se llevará a cabo en un **repositorio ded
 
 ## Comunidad
 
-¡Únete a nuestra comunidad para hacer preguntas, compartir tus flujos de trabajo y conectar con otros usuarios de n8n! Esta comunidad es principalmente para usuarios de habla hispana.
+¡Únete a nuestra comunidad para hacer preguntas, compartir tus flujos de trabajo y conectar con otros usuarios de n8n!
 
 *   **Canal de Telegram:** https://t.me/n8nation
 *   **Grupo de Telegram:** https://t.me/n8nation_chat
-*   **Reddit:** r/n8nation_
+*   **Reddit:** https://www.reddit.com/r/n8nation_
 *   **Correo:** steventheortiz@gmail.com
 
 **¿Quieres colaborar?** Visita nuestro [repositorio de la comunidad](community-repo/README.md) para recursos y oportunidades de contribución bajo licencia MIT. Para oportunidades de negocio colaborativo en el ecosistema N8Nation, consulta el [PROPOSAL.md](PROPOSAL.md) en el repositorio principal de [n8nation](https://github.com/MrKaizen7/n8nation). 

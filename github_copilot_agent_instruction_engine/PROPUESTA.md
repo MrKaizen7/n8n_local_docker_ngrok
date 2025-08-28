@@ -4,7 +4,7 @@
 
 **n8nation** es un ecosistema colaborativo que convierte profesionales de automatización en una "superagencia" transparente. Combinamos servicios de consultoría + marketplace + educación con un sistema único de puntos que garantiza compensación justa. Los colaboradores votan en decisiones clave (roadmap, compensación, dirección estratégica) mientras construimos el líder del mercado en español de automatización con n8n.
 
-**¿Por qué ahora?** Mercado de $50B+ creciendo exponencialmente, n8n dominando el open-source, mercado hispano desatendido.
+**¿Por qué ahora?** Mercado de $50B+ creciendo exponencialmente, n8n dominando el open-source, mercado latinoamericano desatendido.
 
 ---
 
@@ -208,8 +208,8 @@ Pero necesitamos actuar ahora, mientras la oportunidad está abierta.
 
 **Contacto directo:**  
 📧 Email: [steventheortiz@gmail.com]  
-💬 Telegram: [@n8nation_chat](https://t.me/n8nation_chat)
-💬 Reddit [r/n8nation_] (https://www.reddit.com/r/n8nation) 
+💬 Telegram: [@n8nation](https://t.me/n8nation)
+💬 Reddit [r/n8nation_] (https://www.reddit.com/r/n8nation_) 
 🔗 GitHub: [Repositorio Principal](https://github.com/MrKaizen7/n8nation)
 
 ---
