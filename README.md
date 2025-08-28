@@ -1,5 +1,15 @@
 # Configuración Local de n8n con Docker y Ngrok
 
+---
+[🌐 English version](https://github.com/MrKaizen7/github_copilot_agent_instruction_engine)
+---
+TL;DR
+
+Este repo te permite:
+*   Ejecutar tu instancia de n8n con un clic.
+*   Configurar las variables una vez y preservarlas entre ejecuciones i.e. url de ngrok, fuentes permitidas.
+*   Conservar tus workflows y credenciales seguras y persistentes
+
 ¡Bienvenido a la Configuración Local de n8n! Este repositorio ofrece una solución sencilla y con un solo clic para ejecutar n8n en un contenedor de Docker y exponerlo a internet con una URL persistente de Ngrok. Es el punto de partida ideal para desarrolladores que necesitan una configuración rápida y sin complicaciones para probar webhooks y flujos de trabajo localmente.
 
 ## ¿Por Qué Usar Esta Configuración?
@@ -27,6 +37,7 @@ Antes de empezar, asegúrate de tener lo siguiente instalado:
 
 2.  **Configura Tus Archivos**
     Abre los archivos `docker-compose.yml` y `start-n8n.bat` y reemplaza los valores de marcador de posición con tu propia información.
+        *   Puedes editarlos con el bloc de notas.
 
     ### `docker-compose.yml`
     Reemplaza estos valores:
@@ -44,10 +55,6 @@ Antes de empezar, asegúrate de tener lo siguiente instalado:
 3.  **Ejecuta el Script**
     Una vez que tus archivos estén configurados, simplemente ejecuta el archivo `start-n8n.bat`.
 
-    ```bash
-    start-n8n.bat
-    ```
-
     Esto iniciará automáticamente tu contenedor de Docker de n8n, creará el túnel de Ngrok y abrirá tu instancia de n8n en tu navegador web predeterminado.
 
 ## Archivos Importantes
@@ -64,6 +71,16 @@ Para actualizar n8n a la última versión disponible, sigue las instrucciones de
 2.  Ejecuta `docker compose pull` para descargar la última versión
 3.  Ejecuta `docker compose down` para detener y eliminar la versión anterior
 4.  Ejecuta `docker compose up -d` para iniciar el contenedor actualizado
+
+## Motor de instrucciones BAM! Github Copilot Mejorado
+Este proyecto integra el motor de instrucciones BAM! para potenciar y personalizar la colaboración entre humanos y agentes AI (como GitHub Copilot). BAM! permite adaptar, expandir y mantener instrucciones y prompts de forma modular, asegurando que el trabajo asistido por IA siga los estándares y flujos de trabajo del equipo.
+
+Estructura recomendada:
+
+`copilot-instructions.md`: Guía principal para agentes AI (visión general, patrones clave, flujos de trabajo)
+`instructions`: Archivos modulares con estándares para cada lenguaje, framework y característica
+`prompts`: Prompts reutilizables para generación, revisión y tareas asistidas por AI
+`CHANGELOG.md` y `ROADMAP.md`: Registro de cambios y hoja de ruta del motor BAM!
 
 ## El Ecosistema n8nation
 
