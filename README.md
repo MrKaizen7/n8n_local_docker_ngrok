@@ -97,4 +97,4 @@ El desarrollo del ecosistema n8nation se llevará a cabo en un **repositorio ded
 *   **Reddit:** r/n8nation_
 *   **Correo:** steventheortiz@gmail.com
 
-**¿Quieres colaborar?** Visita nuestro [repositorio de la comunidad](community-repo/README.md) para recursos y oportunidades de contribución bajo licencia MIT. Para oportunidades de negocio colaborativo en el ecosistema N8Nation, consulta el [PROPOSAL.md](PROPOSAL.md) en el repositorio principal de [n8nation](https://github.com/MrKaizen7/n8nation). 
+**¿Quieres colaborar?** Visita nuestro [repositorio de la comunidad](community-repo/README.md) (pronto) para recursos y oportunidades de contribución bajo licencia MIT. Para oportunidades de negocio colaborativo en el ecosistema N8Nation, consulta el [PROPOSAL.md](PROPUESTA.md) en el repositorio principal de [n8nation](https://github.com/MrKaizen7/n8nation). 
