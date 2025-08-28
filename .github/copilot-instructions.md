@@ -27,7 +27,7 @@ Este repositorio contiene la configuración y flujos de trabajo para n8n con Doc
 
 ## Enlaces Útiles
 - [Instrucciones Python](./instructions/python.instructions.md)
-- [Prompt de generación de workflow](./prompts/generate-n8n-workflow.prompt.md)
+- [Prompt de generación de workflow](./prompts/generate-n8n-workflow.prompt.md) 
 
 ---
 Actualiza este archivo conforme evolucione el proyecto y sus flujos de trabajo.
