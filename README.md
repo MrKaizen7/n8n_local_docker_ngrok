@@ -65,11 +65,11 @@ Para actualizar n8n a la última versión disponible, sigue las instrucciones de
 3.  Ejecuta `docker compose down` para detener y eliminar la versión anterior
 4.  Ejecuta `docker compose up -d` para iniciar el contenedor actualizado
 
-## El Ecosistema N8Nation
+## El Ecosistema n8nation
 
-Este repositorio es un punto de entrada rápido para la configuración local de n8n. El proyecto completo de **N8Nation** es un ecosistema más amplio que incluye un AI Copilot avanzado, una aplicación React, bases de datos y una estrategia de negocio colaborativa.
+Este repositorio es un punto de entrada rápido para la configuración local de n8n. El proyecto completo de **n8nation** es un ecosistema más amplio que incluye un AI Copilot avanzado, una aplicación React, bases de datos y una estrategia de negocio colaborativa.
 
-El desarrollo del ecosistema N8Nation se llevará a cabo en un **repositorio dedicado** (próximamente disponible), donde encontrarás la implementación completa y todas las herramientas para construir, colaborar y monetizar con n8n.
+El desarrollo del ecosistema n8nation se llevará a cabo en un **repositorio dedicado** (próximamente disponible), donde encontrarás la implementación completa y todas las herramientas para construir, colaborar y monetizar con n8n.
 
 ## Comunidad
 
@@ -80,4 +80,4 @@ El desarrollo del ecosistema N8Nation se llevará a cabo en un **repositorio ded
 *   **Reddit:** r/n8nation_
 *   **Correo:** steventheortiz@gmail.com
 
-**¿Quieres colaborar?** Visita nuestro [repositorio de la comunidad](community-repo/README.md) para recursos y oportunidades de contribución bajo licencia MIT. Para oportunidades de negocio colaborativo en el ecosistema N8Nation, consulta el [PROPOSAL.md](PROPOSAL.md) en el repositorio principal de N8Nation (próximamente).
+**¿Quieres colaborar?** Visita nuestro [repositorio de la comunidad](community-repo/README.md) para recursos y oportunidades de contribución bajo licencia MIT. Para oportunidades de negocio colaborativo en el ecosistema N8Nation, consulta el [PROPOSAL.md](PROPOSAL.md) en el repositorio principal de [n8nation](https://github.com/MrKaizen7/n8nation). 

@@ -71,7 +71,7 @@ The `.github` instruction engine is a set of files and conventions that:
 - AI agent reads `copilot-instructions.md` for project context
 - For a Python backend, agent consults `instructions/python.instructions.md` for code style
 - When generating a React component, agent uses `prompts/generate-component.prompt.md` referencing `instructions/react.instructions.md`
-- After major changes, agent updates `CHANGELOG.md` and proposes edits to instructions
+- After major changes, agent updates `CHANGELOG.md` and proposes edits to its own instructions
 
 ---
 
