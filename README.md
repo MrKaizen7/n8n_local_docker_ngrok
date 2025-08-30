@@ -93,7 +93,7 @@ El desarrollo del ecosistema n8nation se llevará a cabo en un **repositorio ded
 ¡Únete a nuestra comunidad para hacer preguntas, compartir tus flujos de trabajo y conectar con otros usuarios de n8n! Esta comunidad es principalmente para usuarios de habla hispana.
 
 *   **Canal de Telegram:** https://t.me/n8nation
-*   **Grupo de Telegram:** https://t.me/n8nation_chat
+*   **Grupo de Telegram:** https://t.me/n8nation_hub
 *   **Reddit:** [https://reddit.com/r/n8nation_]
 
 **¿Quieres colaborar?** Visita nuestro [repositorio de la comunidad](community-repo/README.md) (pronto) para recursos y oportunidades de contribución bajo licencia MIT. Para oportunidades de negocio colaborativo en el ecosistema N8Nation, consulta el [PROPOSAL.md](PROPUESTA.md) en el repositorio principal de [n8nation](https://github.com/MrKaizen7/n8nation). 

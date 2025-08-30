@@ -64,7 +64,7 @@ Si tu interés va **más allá de la configuración técnica** y quieres contrib
 ## 📞 **¿Preguntas?**
 
 - **Issues técnicos:** Abre un Issue aquí
-- **Dudas del setup:** Telegram [@n8nation_chat](https://t.me/n8nation_chat)
+- **Dudas del setup:** Telegram [@n8nation_hub](https://t.me/n8nation_hub)
 - **Colaboración ecosistema:** Revisa [PROPOSAL.md](./PROPOSAL.md)
 
 ---

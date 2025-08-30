@@ -16,7 +16,7 @@ echo ✅ Todo listo. Puedes cerrar esta ventana o dejarla abierta para monitoriz
 echo. 
 echo ➡️ Necesitas ayuda o quieres conectar con la comunidad? 
 echo ➡️ Reddit: https://reddit.com/r/n8nation_ 
-echo ➡️ Telegram: Únete al Grupo: https://t.me/n8nation_chat - Únete al Canal: https://t.me/n8nation
+echo ➡️ Telegram: Únete al Grupo: https://t.me/n8nation_hub - Únete al Canal: https://t.me/n8nation
 echo ➡️ Echa un vistazo al repositorio: https://github.com/MrKaizen7/n8n_local_docker_ngrok 
 echo.
 echo ➡️ Únete a n8nation: Ve a PROPOSAL.md para oportunidades de colaboración
