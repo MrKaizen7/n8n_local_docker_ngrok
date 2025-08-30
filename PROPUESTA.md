@@ -207,7 +207,8 @@ Pero necesitamos actuar ahora, mientras la oportunidad está abierta.
 ### **¿Estás listo para ser parte de algo más grande?**
 
 **Contacto directo:**  
-📧 Email: [steventheortiz@gmail.com]  
+💬 Telegram: [@steventheortiz](https://t.me/steventheortiz)
+💬 Reddit [u/steventheortiz] (https://www.reddit.com/user/steventheortiz)
 💬 Telegram: [@n8nation_chat](https://t.me/n8nation_chat)
 💬 Reddit [r/n8nation_] (https://www.reddit.com/r/n8nation) 
 🔗 GitHub: [Repositorio Principal](https://github.com/MrKaizen7/n8nation)
